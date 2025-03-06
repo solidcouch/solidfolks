@@ -1,0 +1,18 @@
+{
+  "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+  "client_id": "https://folks.solidcouch.org/clientid.jsonld",
+  "client_name": "Solid Folks",
+  "redirect_uris": [
+    "https://folks.solidcouch.org/"
+  ],
+  "client_uri": "https://folks.solidcouch.org/",
+  "logo_uri": "https://folks.solidcouch.org/logo.svg",
+  "scope": "openid profile offline_access webid",
+  "grant_types": [
+    "refresh_token",
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ]
+}
